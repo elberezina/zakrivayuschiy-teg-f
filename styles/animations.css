@@ -12,3 +12,36 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes pointer {
+
+  0% {
+    margin-left: -20px;
+  }
+
+  100% {
+    margin-left: -24px;
+  }
+}
+
+@keyframes transform {
+
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes opacity {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
